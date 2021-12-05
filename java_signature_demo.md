@@ -1,6 +1,6 @@
 - JAVA signature - ApiSignature.java
 
-```
+```java
 package com.test.huobi;
 
 import java.nio.charset.StandardCharsets;
@@ -85,7 +85,7 @@ public class ApiSignature {
 
 -UrlParamsBuilder.class
 
-```
+```java
 package com.test.huobi;
 
 import java.io.UnsupportedEncodingException;
@@ -296,7 +296,7 @@ public class UrlParamsBuilder {
 
 - HuobiApiException.java
 
-```
+```java
 package com.test.huobi;
 
 public class HuobiApiException extends RuntimeException {
@@ -329,7 +329,7 @@ public class HuobiApiException extends RuntimeException {
 
 - JAVA demo - HuobiSignatureDemo.java
 
-```
+```java
 package com.test.huobi;
 
 import java.io.IOException;
